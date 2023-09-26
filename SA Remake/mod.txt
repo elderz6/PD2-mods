@@ -1,0 +1,10 @@
+{
+	"name": "Silent Assassin Remake",
+	"description": "Silent Assassin",
+	"author": "elderz",
+	"version": "1.01",
+	"blt_version": 2,
+	"hooks": [
+		{ "hook_id": "lib/units/enemies/cop/copbrain", "script_path": "Hooks/copbrain.lua" }
+	]
+}
