@@ -1,0 +1,17 @@
+function GroupAIStateBase:convert_hostage_to_criminal(unit, peer_unit)
+
+-- Lines 1639-1788
+function IntimitateInteractionExt:interact(player)
+elseif self.tweak_data == "hostage_convert" then
+    if Network:is_server() then
+        self:remove_interact()
+        self:set_active(false, true)
+        managers.groupai:state():convert_hostage_to_criminal(self._unit)
+
+long_dis_interaction
+
+function CopLogicIdle._surrender(data, amount, aggressor_unit)
+
+function CopLogicIntimidated._do_tied(data, aggressor_unit)
+
+    --run GroupAIStateBase:convert_hostage_to_criminal(unit, nil)
